@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Aplicacion para monitorear los turnos de cada ingeniero,
+para el backend se debe correr bundler install, las migraciones, luego correr el seed y asi crear los servicio y los usuarios
 
-Things you may want to cover:
+para los usuarios se ocupo la gema devise
+para los cors la gema rack-cors
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+se crearon los modelos de usuario, bloque para cada bloque de trabajo 
+se creo el modelo servicio el cual tiene los nombres de los servicios
+se creo el modelo de turnos trabajado el cual lleba el usuario el bloque la semana y el dia
